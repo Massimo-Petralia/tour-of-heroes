@@ -1,0 +1,6 @@
+<h3>top heroes</h3>
+<div class="box">
+  <a *ngFor="let hero of heroes" routerLink="/detail/{{hero.id}}">
+    <img src="{{hero.avatar}}" alt="{{hero.name}}">
+  </a>
+</div>
