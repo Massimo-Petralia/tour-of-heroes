@@ -20,10 +20,10 @@ createDb() {
     {id: 9, name: 'mantis', avatar: './assets/images/mantis.jpg'},
     {id: 10, name: 'ayesha', avatar: './assets/images/ayesha.jpg'}
   ];
-  return heroes;
+  return {heroes};
 }
   constructor() { }
   genId(heroes: Hero[]): number {
-    return heroes.length > 0 ? Math.max(...heroes.map(hero => hero.id)) + 1 : 2;
+    return heroes.length > 0 ? Math.max(...heroes.map(hero => hero.id)) + 1 : 1;
   }
 }

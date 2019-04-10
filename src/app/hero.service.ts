@@ -11,8 +11,8 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 export class HeroService {
   private heroesUrl = 'api/heroes';
   constructor(
+    private http: HttpClient,
     private messageService: MessageService,
-    private http: HttpClient
     ) { }
   getHeroes(): Observable<Hero[]> {
     this.messageService.add('MessageService: eroi recuperati');
