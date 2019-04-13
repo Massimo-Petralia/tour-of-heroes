@@ -6,7 +6,10 @@
   li{
     list-style-type: none;
     cursor: pointer;
-    font-size: 1.3em
+    font-size: 1.3em;
+    display: flex;
+    flex-wrap: nowrap;
+
   }
   #grid-container{
     position: relative;
@@ -63,4 +66,4 @@
     cursor: pointer;
 }
 
-ul{padding-left: 0px;}
+ul{padding-left: 0px; height: 100%}
