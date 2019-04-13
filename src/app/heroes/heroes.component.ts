@@ -25,4 +25,17 @@ export class HeroesComponent implements OnInit {
     this.selectedHero = hero;
   }
 
+  togglePanel() {
+    var sidepanel = document.getElementById('mySidepanel');
+    var button = document.getElementById('OpenCloseButton');
+    if (sidepanel.style.width === '0px') {
+        sidepanel.style.width = '180px';
+        button.className = 'fas fa-angle-left';
+    } else {
+        sidepanel.style.width = '0px';
+        button.className = 'fas fa-angle-right';
+
+    }
+}
+
 }

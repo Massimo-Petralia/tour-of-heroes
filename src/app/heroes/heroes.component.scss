@@ -1,5 +1,5 @@
 .selected {
-    background-color: #CFD8DC !important;
+    background-color: rgb(117, 117, 117) !important;
     color: white;
   }
   *{font-family: Arial, Helvetica, sans-serif}
@@ -12,7 +12,7 @@
     display: grid;
     grid-template-areas: 'intestazione intestazione'
                           'lista dettagli';
-    margin: 250px 0px ;
+    
     padding: 10px 0px;
                           
   }
@@ -27,3 +27,39 @@
     grid-area: dettagli;
   }
 
+  
+  #container{
+    display: flex;
+    align-items: center;
+  }
+    
+
+.sidepanel{
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+
+.panelItem{
+    text-decoration: none;
+    color: gray;
+    padding: 8px;
+    font-size: 25px;
+}
+.panelItem:hover{
+    color: white;
+}
+#OpenCloseButton{
+    color: white;
+    background: black;
+    font-size: 35px;
+    padding:5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+
+ul{padding-left: 0px;}

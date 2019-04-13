@@ -33,10 +33,7 @@
   padding-right: 20px;
 }
 
-a {
-  text-decoration: none;
-  color: white;
-}
+
 .active {
   background: dodgerblue;
   color: white;
@@ -65,4 +62,9 @@ a {
     display: flex;
     flex-direction: column;
   }
+}
+
+nav{
+  margin-top: 250px;
+  color: black;
 }
