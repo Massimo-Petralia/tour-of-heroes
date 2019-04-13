@@ -20,7 +20,7 @@
 #navbar {
   position: fixed;
   top: 0px;
-  background: grey;
+  background: rgb(243, 92, 66);
   width: 100%;
   padding: 90px;
   z-index: 99;
@@ -48,7 +48,7 @@
 
 #logoCompany {
   font-size: 35px;
-  padding-left: 20px;
+  padding-left: 40px;
   transition: 500ms;
   color: white;
   text-decoration: none;
@@ -68,9 +68,22 @@
     margin-top: 320px !important;
     
   }
+  #triangle{
+    display: none;
+  }
+ 
 }
 
 nav{
   margin-top: 250px;
   color: black;
+}
+
+#triangle{
+  position: absolute;
+  width: 0;
+      height: 0;
+      border-bottom: 220px solid white;
+      border-right: 70px solid transparent;
+      bottom: 0;  
 }
