@@ -23,4 +23,8 @@ export class AppComponent {
     }
   }
 
+  scrollZero() {
+    window.scroll(0, 0);
+  }
+
 }
