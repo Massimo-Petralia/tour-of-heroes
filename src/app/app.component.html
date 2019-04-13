@@ -1,10 +1,22 @@
-  <h1>
-    {{ title }}
-  </h1>
-  <nav>
-    <a class="navLink" routerLink="/dashboard">Dashboard</a>
-    <a class="navLink" routerLink="/heroes" routerLinkActive="router-link-active" >Heroes</a>
+<div id="navbar-container">
+<div id="navbar">
+  <a href="#" id="logoCompany">{{title}}</a>
+  <div id="navbar-right">
+   <a href="#" class="navbarItem active" >Home</a>
+   <a href="#" class="navbarItem">Abaut</a>
+   <a href="#" class="navbarItem">contact</a>
+  </div>
+  </div>
+
+</div>
+
+<nav>
+    <a class="displayNav-link" class="navLink" routerLink="/dashboard">Dashboard</a>
+    <a class="displayNav-link" class="navLink" routerLink="/heroes" routerLinkActive="router-link-active" >Heroes</a>
   </nav>
   <router-outlet></router-outlet>
+ 
+  
   <app-messages></app-messages>
+  <div id="fake-content" style="padding-bottom: 2000px"></div>
 

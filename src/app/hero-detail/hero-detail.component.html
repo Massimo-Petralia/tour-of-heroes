@@ -1,13 +1,11 @@
 <div *ngIf="hero">
   <h2>{{hero.name | uppercase}} Details:</h2>
- <div><span>id: </span>{{hero.id}}</div>
- <div><span>name: </span>{{hero.name}}</div>
- <img src="{{hero.avatar}}" alt="{{hero.name}}">
- <div>
-   <label>name:
-     <input type="text" [(ngModel)]="hero.name" placeholder="name">
-   </label>
- </div> 
- <button (click)="goBack()">go back</button>
- </div>
- 
+  <div><span>id: </span>{{hero.id}}</div>
+  <div><span>name: </span>{{hero.name}}</div>
+  <img src="{{hero.avatar}}" alt="{{hero.name}}">
+  <div>
+    <h4>comments this character</h4>
+    <textarea [(ngModel)]="hero.text" name="myText" id="" cols="30" rows="10" placeholder="commets..."></textarea>
+  </div>
+  <button id="myButton" (click)="goBack()">go back</button>
+</div>
