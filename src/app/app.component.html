@@ -1,26 +1,25 @@
-<div id="background"><h1 id="background-title">Enjoy<br>fantastic heroes !</h1> </div>
+<div id="background">
+  <h1 id="background-title">Enjoy<br>fantastic heroes !</h1>
+</div>
 <div id="navbar-container">
-<div id="navbar">
-  <svg id="triangle" width="100px" height="100px">
-    <path d="M0, 0 L100, 100 L0, 100 Z" style=" z-index: 100" />
-  </svg>
-  <a href="#" id="logoCompany">{{title}}</a>
-  <div id="navbar-right">
-   <a href="javascript:void(0)" class="navbarItem active" onclick="window.scroll({top: 0, behavior: 'smooth'})">Home</a>
-   <a href="javascript:void(0)" class="navbarItem">Abaut</a>
-   <a href="javascript:void(0)" class="navbarItem">contact</a>
-  </div>
+  <div id="navbar">
+    <svg class="triangle" width="100px" height="100px">
+      <path d="M0, 0 L100, 100 L0, 100 Z" />
+    </svg>
+    <a href="#" id="logoCompany">{{title}}</a>
+    <div id="navbar-right">
+      <a href="javascript:void(0)" class="navbarItem active"
+        onclick="window.scroll({top: 0, behavior: 'smooth'})">Home</a>
+      <a href="javascript:void(0)" class="navbarItem">Abaut</a>
+      <a href="javascript:void(0)" class="navbarItem">contact</a>
+    </div>
   </div>
 
 </div>
-
 <nav>
-    <a class="displayNav-link" class="navLink" routerLink="/dashboard">Dashboard</a>
-    <a class="displayNav-link" class="navLink" routerLink="/heroes" routerLinkActive="router-link-active" >Heroes</a>
-  </nav>
-  <router-outlet></router-outlet>
- 
-  
-  <app-messages></app-messages>
-  <div id="fake-content" style="padding-bottom: 2000px"></div>
-
+  <a class="displayNav-link" class="navLink" routerLink="/dashboard">Dashboard</a>
+  <a class="displayNav-link" class="navLink" routerLink="/heroes" routerLinkActive="router-link-active">Heroes</a>
+</nav>
+<router-outlet></router-outlet>
+<app-messages></app-messages>
+<div id="fake-content" style="padding-bottom: 2000px"></div>
