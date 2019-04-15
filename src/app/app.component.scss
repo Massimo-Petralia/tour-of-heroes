@@ -81,11 +81,11 @@ nav{
 
 #triangle{
   position: absolute;
-  width: 0;
-      height: 0;
-      border-bottom: 220px solid white;
-      border-right: 70px solid transparent;
-      bottom: 0;  
+  bottom: 0px;
+  transform: scaleX(50);
+  fill: white;
+  
+     
 }
 
 #background {
@@ -99,8 +99,8 @@ nav{
   align-items: flex-end;
 }
 #background-title{
- margin-bottom: 20%;
- margin-right: 20%;
+ margin-bottom: 10%;
+ margin-right: 5%;
  color: rgba(243, 92, 66, 0.5);
  font-size: 5em;
 }
