@@ -1,7 +1,6 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
 <div id="grid-container">
-    <!-- <h2 class="grid-item1">my Heroes</h2>-->
  <div id="container"> 
 <ul class="grid-item2 sidepanel" id="mySidepanel" style="width: 180px">
   <li *ngFor="let hero of heroes" (click)="onSelect(hero)" [class.selected]="hero === selectedHero">
