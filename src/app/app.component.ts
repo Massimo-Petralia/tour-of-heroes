@@ -17,11 +17,13 @@ export class AppComponent {
     if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
       document.getElementById('navbar').style.padding = '30px';
       document.getElementById('logoCompany').style.fontSize = '25px';
-      document.getElementById('logoCompany').style.marginLeft = '650px';
+
+    
     } else {
       document.getElementById('navbar').style.padding = '90px';
       document.getElementById('logoCompany').style.fontSize = '50px';
-      document.getElementById('logoCompany').style.marginLeft = '0px';
+
+
 
     }
   }

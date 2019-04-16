@@ -34,6 +34,7 @@
 #navbar-right {
   float: right;
   padding-right: 20px;
+  text-decoration: none;
 }
 
 
@@ -51,7 +52,7 @@
 
 #logoCompany {
   font-size: 50px;
-  padding-left: 40px;
+  padding: 30px;
   transition: 500ms;
   color: white;
   text-decoration: none;
@@ -77,6 +78,9 @@
   #triangle{
     display: none;
   }
+  #triangle-div-main{
+    display: none;
+  }
  
 }
 
@@ -85,7 +89,7 @@ nav{
   color: black;
 }
 
-.triangle-div-main{
+#triangle-div-main{
   width: 100%;
   height: 100px;
   background: blue;
@@ -93,6 +97,7 @@ nav{
   left: 0;
   bottom: -70px;
   transform: rotate(2deg);
+  z-index: -1;
 }
 
 .triangle-div{
