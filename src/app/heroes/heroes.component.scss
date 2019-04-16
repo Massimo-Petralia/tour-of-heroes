@@ -15,16 +15,14 @@
   #grid-container{
     position: relative;
     display: grid;
-    grid-template-areas: 'intestazione intestazione'
+    grid-template-areas: 
                           'lista dettagli';
     
     padding: 10px 0px;
                           
   }
 
-  .grid-item1{
-    grid-area: intestazione;
-  }
+ 
   .grid-item2{
     grid-area: lista;
   }
@@ -36,6 +34,8 @@
   #container{
     display: flex;
     align-items: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
    }
     
 
