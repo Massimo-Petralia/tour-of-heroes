@@ -28,6 +28,17 @@ img{
 #commentArea{
     display: flex;
     flex-direction: column;
-    margin-top: 87px;
+    margin-top: 115px;
     margin-left: 20px;
+}
+
+#id-detail{
+padding: 5px;
+font-weight: bold;
+font-size: 1.2em
+}
+#name-detail{
+  padding: 5px;
+  font-weight: bold;
+  font-size: 1.2em  
 }
