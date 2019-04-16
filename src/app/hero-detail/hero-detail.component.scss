@@ -5,10 +5,16 @@ img{
 
 }
 #myButton{
+    margin-left: 10px;
+    text-decoration: none;
     background: gray;
-    margin: 15px 0px;
-    padding: 10px;
-    border: none; 
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+}
+
+#myButton:hover{
+    background: rgb(243, 92, 66);
 }
 
 #box{

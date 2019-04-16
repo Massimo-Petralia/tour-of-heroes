@@ -6,13 +6,15 @@
 }
 .navLink {
   margin-left: 10px;
-}
-.displayNav-link {
   text-decoration: none;
   background: gray;
   color: white;
-  padding: 5px;
-  border-radius: 5px;
+  padding: 15px;
+  font-weight: bold;
+
+}
+.navLink:hover{
+  background: rgb(243, 92, 66);
 }
 
 #navbar-container {
@@ -34,10 +36,12 @@
 #navbar-right {
   float: right;
   padding-right: 20px;
-  text-decoration: none;
 }
 
+a{
+  text-decoration: none;
 
+}
 .active {
   background: dodgerblue;
   color: white;
