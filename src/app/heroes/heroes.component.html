@@ -6,7 +6,7 @@
 <ul class="grid-item2 sidepanel" id="mySidepanel" style="width: 0px">
   <li *ngFor="let hero of heroes" (click)="onSelect(hero)" [class.selected]="hero === selectedHero">
     
-      <span>{{hero.id}}</span> {{hero.name}}
+      <span class="heroId">{{hero.id}}</span> {{hero.name}}
 
    
   </li>

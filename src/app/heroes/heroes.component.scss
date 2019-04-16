@@ -6,9 +6,10 @@
   li{
     list-style-type: none;
     cursor: pointer;
-    font-size: 1.3em;
+    font-size: 1.5em;
     display: flex;
     flex-wrap: nowrap;
+    padding: 5px;
 
   }
   #grid-container{
@@ -66,4 +67,17 @@
     cursor: pointer;
 }
 
-ul{padding-left: 0px; height: 100%}
+ul{
+  padding-left: 0px; 
+  height: 100%;
+  border-top: 5px solid rgb(243, 92, 66);
+  border-bottom: 5px solid rgb(243, 92, 66);
+}
+
+.heroId{
+  margin-right: 7px;
+}
+
+li:hover{
+  background: rgb(243, 92, 66);
+}
